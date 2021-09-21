@@ -1,0 +1,3 @@
+db.removedNoMovement.aggregate([
+{"$group":{_id:"$bike",counter:{$sum:1}}}
+])

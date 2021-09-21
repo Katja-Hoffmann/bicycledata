@@ -1,0 +1,6 @@
+db.transformedToDocuments_Testdaten.find(
+    { "bike" : "http://api.deutschebahn.com/v1/providernetworks/2/rentalobjects/004E6A745A5365DB704988B2DD7FCEE08C8E9D21",
+     "timestamp" : { "$gte" : new ISODate("2020-06-05T01:15:16.405Z") }
+    }
+
+)
