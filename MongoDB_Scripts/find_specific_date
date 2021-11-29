@@ -1,3 +1,0 @@
-db.muenchen_neu.find(
-    { "date" : new ISODate("2020-06-01T01:17:50.452Z")}
-)
